@@ -6,10 +6,11 @@ spring:
       auto-index-creation: true
   ai:
     openai:
-      api-key: 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
+      api-key: {{API-KEY}}
       base-url: https://api.groq.com/openai
 #      chat:
 #      options:
 #        model: llama3-70b-8192
 #        temperature: 0.4
+
 #        max-tokens: 256
