@@ -30,8 +30,11 @@ Generates AI-powered interview questions for a specific field and difficulty lev
   "field": "Java",
   "level": "Intermediate"
 }
+```
 
-Response:
+### Response:
+
+```json
 
 [
   "What is polymorphism in Java?",
@@ -74,8 +77,6 @@ Request Body:
 ## Response:
 
 ```json
-Copy
-Edit
 {
   "message": "Answer submitted successfully",
   "status": "OK"
