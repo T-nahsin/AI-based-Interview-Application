@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://user:user@cluster0.un0kaso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: InterviewPrep
+      auto-index-creation: true
+  ai:
+    openai:
+      api-key: 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
+      base-url: https://api.groq.com/openai
+#      chat:
+#      options:
+#        model: llama3-70b-8192
+#        temperature: 0.4
+#        max-tokens: 256
