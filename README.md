@@ -129,6 +129,7 @@ User can track their performance over time.
 
 ## 📂 Project Structure
 ```json
+
 src/
  ├── config/         # Configuration files (JWT, AI API keys)
  ├── controller/     # REST controllers
@@ -136,6 +137,8 @@ src/
  ├── repository/     # MongoDB repositories
  ├── service/        # Business logic & AI integration
  └── InterviewPrepApp.java  # Main entry point
+
+
  ```
 
 
@@ -150,21 +153,22 @@ MongoDB Atlas account
 
 Qroq API key
 
-# Clone the repository
+#### Clone the repository
 git clone https://github.com/your-username/ai-interview-prep.git
 
-# Navigate into the folder
+#### Navigate into the folder
 cd ai-interview-prep
 
-# Build the project
+#### Build the project
 mvn clean install
 
-# Run the application
+#### Run the application
 mvn spring-boot:run
-📜 License
+
+## 📜 License
 This project is licensed under the MIT License.
 
-💡 Future Plans
+## 💡 Future Plans
 Add voice-based answering using Vosk
 
 Add gamification features (leaderboard, streaks)
